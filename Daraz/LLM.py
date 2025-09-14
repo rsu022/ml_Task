@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer, util
 import google.generativeai as genai
 
 # Configure Gemini API
-api_key = os.getenv("GOOGLE_API_KEY") #$env:GOOGLE_API_KEY="AIzaSyDEt4p77tiwhnH1opkwKIaIq2f8ncAXqgk"; python LLM.py
+api_key = os.getenv("GOOGLE_API_KEY") 
 if not api_key:
     print("Please set GOOGLE_API_KEY environment variable")
     exit(1)
