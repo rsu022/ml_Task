@@ -6,7 +6,7 @@ import json
 import time
 
 # Configure Gemini AI
-API_KEY = "AIzaSyBgFHea7bij7IT7QuKXazu2UzsycJfULO8"  # Replace with your API key
+API_KEY = ""  # Replace with your API key
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash-001")
 
