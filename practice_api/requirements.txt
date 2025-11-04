@@ -1,0 +1,11 @@
+pip install flask flask_sqlalchemy
+
+# GET /api/students → fetch all
+
+# GET /api/students/<id> → fetch one
+
+# POST /api/students → add new
+
+# PUT /api/students/<id> → update
+
+# DELETE /api/students/<id> → delete
